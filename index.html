@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Basketball Counter App</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="main-content">
+                <div>
+                    <h3>HOME</h3>
+                    <div class="score">
+                        <h2 id="home-count">0</h2>
+                    </div>
+                    <div class="buttons">
+                        <button class="button" onclick="oneh()">+1</button>
+                        <button class="button" onclick="twoh()">+2</button>
+                        <button class="button" onclick="threeh()">+3</button>
+                    </div>
+                </div>
+                <div>
+                    <h3>GUEST</h3>
+                    <div class="score">
+                        <h2 id="guest-count">0</h2>
+                    </div>
+                    <div class="buttons">
+                        <button class="button" onclick="oneg()">+1</button>
+                        <button class="button" onclick="twog()">+2</button>
+                        <button class="button" onclick="threeg()">+3</button>
+                    </div>
+                </div>
+            </div>
+            <button id="reset" onclick="reset()">reset</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
